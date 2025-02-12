@@ -8,7 +8,7 @@
       "wdth" 100;
 }
 .text-primary{
-    color: #fd6e0a;
+    color: greenyellow;
 }
 nav{
     display: flex;
@@ -40,4 +40,38 @@ nav ul{
     border-radius: 7px;
     padding: 18px 35px;
     border: none;
+}
+.banner{
+    display: flex;
+    justify-content: space-between;
+    margin: 0px 35px 0px 200px;
+}
+img{
+    width: 520px;
+    height: auto;
+}
+.banner-content{
+    max-width: 580px;
+}
+.btn-2{
+    margin-left: 20px;
+    
+}
+.banner-greetings{
+    font-size: 35px;
+    font-weight: 600;
+    color: white;
+}
+.banner-title{
+    font-size: 75px;
+    font-weight: 700;
+}
+.header{
+    background-image: url(/img/bg.jpg);
+}
+.li-color{
+    color: greenyellow;
+}
+.banner-description{
+    color: white;
 }
